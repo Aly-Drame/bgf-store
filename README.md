@@ -1,3 +1,3 @@
 # bgf-store
 BGF STORE
-[Link](www.aly-drame.github.io/bgf-store)
+[Link](whttps://aly-drame.github.io/bgf-store/)
