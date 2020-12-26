@@ -94,3 +94,24 @@ hr{
 .float-start{
     margin-right:20px;
 }
+/*Media Query for screen less than or equal to 400px */
+
+@media all and (max-width:400px){
+    .workout_tanktops{
+        display:flex;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    .workout_tanktops .card{
+      flex:1 1 40%;
+      flex-wrap:wrap;
+      margin-right:15px;
+      margin-bottom: 15px;
+    }
+    .workout_tanktops div div a{
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 0;
+    }
+    
+}
