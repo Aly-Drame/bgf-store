@@ -43,6 +43,9 @@ body{
 .cards * {
     box-sizing: border-box;
 }
+.card:hover{
+    transform: scale(1.1);
+}
 
 .card__image {
     width: 100%;
@@ -98,6 +101,7 @@ body{
 .card__info a:hover {
     background-color: black;
     color:#68d795;
+    
     
     
 }
