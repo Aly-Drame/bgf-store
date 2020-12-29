@@ -83,6 +83,7 @@ h5{
 .card__content > p:last-of-type {
     margin-bottom: 0;
     font-weight: lighter;
+    text-align: center;
     
 }
 
