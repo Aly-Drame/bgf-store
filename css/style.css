@@ -10,6 +10,9 @@ body{
     
 }
 /*Navbar css*/
+.navbar{
+    box-shadow: 10px 0px 10px #111;
+}
 .bg-light{
     background-color: white !important;
 }
