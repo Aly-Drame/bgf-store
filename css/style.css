@@ -123,7 +123,7 @@ h5{
     background-color: black;
     color:#68d795;    
 }
-/*Media Query for screen less than or equal to 400px */
+/*Media Query for screen less than or equal to 469px */
 
 @media all and (max-width:469px){
     .card:hover{
@@ -133,5 +133,11 @@ h5{
         box-shadow: 0px 2px 10px #111;
     }
 
+}
+/* icons*/
+.fab{
+
+    font-size: 22px;
+    margin-right:10px;
 }
 
