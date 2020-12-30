@@ -25,7 +25,17 @@ body{
 }
 .me-auto{
     margin-left: auto!important;
-    
+    margin-right: auto!important;
+}
+.navbar-nav{
+    margin-right:160px!important;
+}
+.nav-item{
+    margin-right:20px!important;
+}
+
+#navbarSupportedContent{
+    color: #fff!important;
 }
 
 /*all Product grid*/
