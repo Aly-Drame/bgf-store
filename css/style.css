@@ -121,9 +121,14 @@ h5{
 
 .card__info a:hover {
     background-color: black;
-    color:#68d795;
-    
-    
-    
+    color:#68d795;    
+}
+/*Media Query for screen less than or equal to 400px */
+
+@media all and (max-width:469px){
+    .card:hover{
+        transform: scale(1);
+    }
+
 }
 
