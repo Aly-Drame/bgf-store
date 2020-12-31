@@ -15,7 +15,14 @@ body{
     position: fixed;
     top: 0 !important;
     z-index: 2;
-    box-shadow: 10px 0px 10px #111;
+    box-shadow: 10px 0px 10px #111;    
+}
+.mai-title{
+    width: 100%;
+    margin-top:80px;
+    text-align:center;
+    margin-bottom: 50px;
+    font-family: sans-serif, Poppins,Verdana, Geneva, Tahoma, ;
 }
 .bg-light{
     background-color: white !important;
