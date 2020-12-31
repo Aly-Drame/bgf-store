@@ -160,6 +160,13 @@ h5{
     .card{
         box-shadow: 0px 2px 10px #111;
     }
+    .navbar-brand:hover{
+    transform: scale(1);
+}
+   .nav-link:hover{
+        transform: scale(1);
+       
+    }
 
 }
 /* icons*/
