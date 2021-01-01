@@ -14,7 +14,7 @@ body{
     width: 100%!important;
     position: fixed;
     top: 0 !important;
-    z-index: 2;
+    z-index: 3;
     box-shadow: 10px 0px 10px #111;    
 }
 .mai-title{
