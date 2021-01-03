@@ -66,22 +66,9 @@ body{
 #navbarSupportedContent{
     color: #fff!important;
 }
-
-h6{
-    font-weight: bold;
-    width:100%;
-    
-}
-#first-section-card{
-    width:100%;
-    margin:auto auto;
-    display:grid;
-    grid-template-columns:repeat(5,1fr);
-    grid-auto-rows: auto;
-   
-}
-#first-section-card>.card{
-    gap:5px;
+/* cards styling*/
+h5{
+    font-size:1.5rem ;
 }
 .cards {
     margin: 0 auto;
@@ -102,7 +89,7 @@ h6{
     transition: transform .5s;
     border-radius: 20px;
     border:transparent;
-    margin:0px;
+    margin-bottom: 0px;
 }
 .card:hover{
     transform: scale(1.2);
@@ -116,6 +103,8 @@ h6{
     display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .card__content {
@@ -123,27 +112,29 @@ h6{
     font-size: 0.9em;
     padding: 15px;
     background: #fafafa;
+    margin-bottom: 0px;
 }
 
 .card__content > p:first-of-type {
-    margin-top: 0;
+    margin-top: 0px;
     font-weight: 600;
     text-align: center;
     
 }
 
 .card__content > p:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-weight: lighter;
     text-align: center;
 }
 
 .card__info {
-    padding: 15px;
+    padding: 0px;
     display: flex;
     justify-content: center;
    border-radius: 15px;
     background: #eeeeeecb;
+    margin-bottom: 0px;
 }
 
 .card__info a {
@@ -177,11 +168,6 @@ h6{
 }
    .nav-link:hover{
         transform: scale(1);
-       
-    }
-    #first-section-card{
-        display: flex;
-        flex-wrap:wrap;
        
     }
 }
